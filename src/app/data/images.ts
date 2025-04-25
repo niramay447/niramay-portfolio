@@ -1,3 +1,5 @@
+import { getImagePath } from '../utils/paths';
+
 export interface ImageData {
   id: number;
   src: string;
@@ -12,7 +14,7 @@ export const placeholderImages: ImageData[] = [
   // Street Photography
   {
     id: 1,
-    src: '/images/street.jpg',
+    src: getImagePath('images/street.jpg'),
     alt: 'Street photography in urban city',
     width: 1200,
     height: 800,
@@ -22,7 +24,7 @@ export const placeholderImages: ImageData[] = [
   // Portrait Photography
   {
     id: 2,
-    src: '/images/portrait.jpg',
+    src: getImagePath('images/portrait.jpg'),
     alt: 'Portrait of a person',
     width: 1200,
     height: 800,
@@ -32,7 +34,7 @@ export const placeholderImages: ImageData[] = [
   // Landscape Photography
   {
     id: 3,
-    src: '/images/landscape.jpg',
+    src: getImagePath('images/landscape.jpg'),
     alt: 'Beautiful landscape view',
     width: 1200,
     height: 800,
@@ -42,7 +44,7 @@ export const placeholderImages: ImageData[] = [
   // Black & White Photography
   {
     id: 4,
-    src: '/images/blackandwhite.jpg',
+    src: getImagePath('images/blackandwhite.jpg'),
     alt: 'Black and white artistic photograph',
     width: 1200,
     height: 800,

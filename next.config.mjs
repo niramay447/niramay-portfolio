@@ -7,9 +7,9 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
-  // Uncomment these lines when deploying to GitHub Pages:
-  // basePath: '/photography-portfolio',
-  // assetPrefix: '/photography-portfolio/',
+  // GitHub Pages configuration - uncommented for deployment
+  basePath: '/niramay-portfolio',
+  assetPrefix: '/niramay-portfolio/',
 };
 
 export default nextConfig; 

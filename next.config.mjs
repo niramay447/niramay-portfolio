@@ -7,9 +7,10 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
-  // GitHub Pages configuration - uncommented for deployment
+  // GitHub Pages configuration
   basePath: '/niramay-portfolio',
   assetPrefix: '/niramay-portfolio/',
+  trailingSlash: true,
 };
 
 export default nextConfig; 

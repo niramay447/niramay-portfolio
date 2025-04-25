@@ -49,7 +49,7 @@ const AboutSection = () => {
               Long before I owned a camera, I found myself framing the world in my mind—pausing moments in time, noticing light, shadow, and color in everyday scenes. That instinct eventually led me to pick up a camera two years ago, and since then, street photography has become my main creative outlet. Though I work as a data scientist and student by day, photography is a growing part of my creative life and something I pursue with focus and intention.
             </p>
             <p className="text-lg text-gray-200">
-            My work gravitates toward vibrant color, dynamic composition, and the quiet poetry of candid moments. Whether it's a fleeting expression, an unexpected symmetry, or a splash of light across a city wall, I aim to capture what feels both spontaneous and intentional. I've also explored portraiture, and I'm always excited to collaborate with individuals or brands who resonate with my visual style.
+              My work gravitates toward vibrant color, dynamic composition, and the quiet poetry of candid moments. Whether it&apos;s a fleeting expression, an unexpected symmetry, or a splash of light across a city wall, I aim to capture what feels both spontaneous and intentional. I&apos;ve also explored portraiture, and I&apos;m always excited to collaborate with individuals or brands who resonate with my visual style.
             </p>
             <a 
               href="https://niramayk.com" 

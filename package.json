@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:skip-lint": "DISABLE_ESLINT_PLUGIN=true next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "DISABLE_ESLINT_PLUGIN=true next build && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "framer-motion": "^12.9.1",

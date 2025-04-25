@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #f8f8f8;
+  --primary: #800020;
+  --primary-dark: #5a0015;
+  --primary-light: #aa0030;
+  --text-color: #f8f8f8;
+  --accent: #580000;
 }
 
 @theme inline {
@@ -22,5 +27,47 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-alverata, 'Helvetica Neue', Arial, sans-serif);
+}
+
+h1, h2, h3, .artistic-text {
+  font-family: var(--font-zt-bros-oskon, 'Helvetica Neue', Arial, sans-serif);
+}
+
+p, li, input, textarea, select, button {
+  font-family: var(--font-alverata, 'Helvetica Neue', Arial, sans-serif);
+}
+
+.font-helvetica {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+@layer components {
+  .hover-effect {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  .title-text {
+    @apply font-bold tracking-wide;
+  }
+
+  .container-padding {
+    @apply px-4 md:px-8 lg:px-16;
+  }
+  
+  .tile-container {
+    @apply relative overflow-hidden cursor-pointer;
+  }
+  
+  .tile-container:hover img {
+    @apply scale-105 opacity-80;
+  }
+  
+  .tile-title {
+    @apply absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/90 to-transparent text-white font-bold text-xl opacity-0 transition-opacity duration-300;
+  }
+  
+  .tile-container:hover .tile-title {
+    @apply opacity-100;
+  }
 }

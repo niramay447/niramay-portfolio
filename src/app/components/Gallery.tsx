@@ -15,10 +15,9 @@ interface GalleryImage {
 
 interface GalleryProps {
   images: GalleryImage[];
-  title: string;
 }
 
-const Gallery = ({ images, title }: GalleryProps) => {
+const Gallery = ({ images }: GalleryProps) => {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
 
   const openLightbox = (image: GalleryImage) => {

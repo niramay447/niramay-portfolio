@@ -40,7 +40,7 @@ export default function PortraitPhotography() {
           </p>
         </motion.div>
         
-        <Gallery images={portraitImages} title="Portrait Photography" />
+        <Gallery images={portraitImages} />
       </section>
       
       <Footer />

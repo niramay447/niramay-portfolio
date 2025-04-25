@@ -40,7 +40,7 @@ export default function LandscapePhotography() {
           </p>
         </motion.div>
         
-        <Gallery images={landscapeImages} title="Landscape Photography" />
+        <Gallery images={landscapeImages} />
       </section>
       
       <Footer />

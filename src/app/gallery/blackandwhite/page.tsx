@@ -40,7 +40,7 @@ export default function BlackAndWhitePhotography() {
           </p>
         </motion.div>
         
-        <Gallery images={bwImages} title="Black & White Photography" />
+        <Gallery images={bwImages} />
       </section>
       
       <Footer />

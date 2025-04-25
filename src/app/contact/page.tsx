@@ -75,7 +75,7 @@ export default function Contact() {
           >
             <h2 className="text-2xl font-semibold mb-6 text-[var(--primary-light)]">Contact Information</h2>
             <p className="text-gray-300 mb-8">
-              I'd love to hear from you! Whether you're interested in booking a photoshoot,
+              I&apos;d love to hear from you! Whether you&apos;re interested in booking a photoshoot,
               have questions about my work, or just want to connect, feel free to reach out.
             </p>
             
@@ -94,7 +94,7 @@ export default function Contact() {
             
             <div className="border-l-2 border-[var(--primary)] pl-6 py-2">
               <p className="italic text-gray-400">
-                "Photography is the story I fail to put into words."
+                &quot;Photography is the story I fail to put into words.&quot;
               </p>
               <p className="text-gray-500 mt-2">— Destin Sparks</p>
             </div>

@@ -40,7 +40,7 @@ export default function StreetPhotography() {
           </p>
         </motion.div>
         
-        <Gallery images={streetImages} title="Street Photography" />
+        <Gallery images={streetImages} />
       </section>
       
       <Footer />
